@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Instagram clone backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "Vtchoo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "pbkdf2": "^3.0.17",
+    "uuid": "^3.4.0"
+  }
+}
